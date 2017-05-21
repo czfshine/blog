@@ -1,0 +1,26 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "czfshine blog",
+  "main": "index.js",
+  "dependencies": {
+    "github-syntax-light": "^0.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czfshine/blog.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "czfshine",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/czfshine/blog/issues"
+  },
+  "homepage": "https://github.com/czfshine/blog#readme"
+}
