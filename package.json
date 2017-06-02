@@ -6,7 +6,10 @@
   "dependencies": {
     "github-syntax-light": "^0.3.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+  	"primer-css":"6.0.0",
+  	"github-syntax-light":"latest"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
