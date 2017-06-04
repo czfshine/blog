@@ -1,9 +1,12 @@
-language: node_js
+language: ruby
 sudo: enable
 before_install:
   - npm install
   - sudo apt-get install ruby
   - gem install sass
-  
+
 install:
   - nohup sass -I node_modules/ --watch css:css &
+
+after_script:
+  - cat nohup.out
